@@ -13,6 +13,7 @@ namespace Practica6
             Console.Write("Введите значение параметра x:");
             string S = Console.ReadLine();
             double x = Convert.ToDouble(S);
+            double F = (Math.Sin(x) - 2 * Math.Cos(x));
         }
     }
 }
